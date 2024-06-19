@@ -1,0 +1,32 @@
+/* Custom CSS for Carousel */
+.carousel {
+    margin-top: 20px;
+  }
+  
+  .carousel-item img {
+    border-radius: 5px;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel-control-prev-icon:hover,
+  .carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .carousel-caption {
+    text-align: center; /* Align text to the center */
+    top: 40%; /* Position at the middle of the carousel */
+    transform: translateY(-50%); /* Adjust position */
+    
+    font-weight: bold; 
+  }
+  

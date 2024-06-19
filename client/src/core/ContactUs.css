@@ -1,0 +1,51 @@
+.contact-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .contact-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-container label {
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .contact-container input[type="text"],
+  .contact-container input[type="email"],
+  .contact-container textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-container textarea {
+    height: 100px;
+  }
+  
+  .contact-container input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .contact-container input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
