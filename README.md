@@ -1,1 +1,1 @@
-Agriculture e-commerce website using MERN
+Agro products e-commerce website using MERN
